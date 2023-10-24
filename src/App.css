@@ -1,0 +1,26 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.container .playground{
+  display: grid;
+  row-gap: 0;
+  column-gap: 0;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.container .score_board{
+  font-size: 42px;
+  background-color: purple;
+  color: white;
+}
+
+.container .score_board span{
+  font-size: 48px;
+  font-weight: bold;
+}
